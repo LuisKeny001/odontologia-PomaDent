@@ -1,0 +1,47 @@
+---
+import "@fontsource-variable/onest";
+
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/header.astro";
+import Intro from "../components/intro.astro";
+import Bento from "../components/bento.astro";
+import Footer from "../components/footer.astro";
+---
+
+<Layout title="Aplicacion web" description="Pagina web de odontologia">
+  <Header />
+  <section
+    class="w-full h-[500px] bg-sky-950 grid place-items-center bg-[url('/public/odontologia.svg')] bg-cover bg-center"
+  >
+    <article class="text-center">
+      <h3 class="text-3xl text-sky-500 font-bold">SERVICIO DE ODONTOLOGIA</h3>
+      <p class="text-sky-50">Sonrisa brillante, Salud radiante</p>
+    </article>
+  </section>
+  <section class="max-w-6xl grid justify-center">
+    <Intro />
+    <main class="flex flex-col items-center mt-3">
+      <h1 class="text-3xl text-sky-700 font-bold">¿Qué ofrecemos?</h1>
+      <Bento />
+    </main>
+    <Footer />
+  </section>
+</Layout>
+
+<style>
+  section::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  section::-webkit-scrollbar-track {
+    background: #1e293b;
+  }
+
+  section::-webkit-scrollbar-thumb {
+    background: #0f172a;
+  }
+
+  section::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+  }
+</style>
