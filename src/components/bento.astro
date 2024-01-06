@@ -6,12 +6,12 @@ import BentoItem from "./bentoItem.astro";
   class="w-full max-w-[1400px] grid grid-cols-12 auto-rows-[20rem] gap-4 mx-auto p-4"
 >
   <BentoItem class="col-span-12 md:col-span-4" title="Curaciones">
-    <div
+    <img
       slot="image"
-      class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      style="background: url('https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fcuraciones.jpg?alt=media&token=40e94fc1-4488-4ae3-b119-aaa433d25a9e');"
-    >
-    </div>
+      class="absolute w-full h-full bg-cover bg-no-repeat bg-center -z-10"
+      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fcuraciones.jpg?alt=media&token=40e94fc1-4488-4ae3-b119-aaa433d25a9e"
+      alt="imagen sobre curaciones dentarias"
+    />
     <p slot="content" class="text-pretty text-sky-100">
       Ofrecemos tratamientos para diversas afecciones dentales, desde caries
       hasta enfermedades de las encías, con el objetivo de restaurar la salud y
@@ -19,36 +19,33 @@ import BentoItem from "./bentoItem.astro";
     </p>
   </BentoItem>
   <BentoItem class="col-span-12 md:col-span-4" title="Prótesis">
-    <div
+    <img
       slot="image"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      style="background: url('https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fprotesis.jpg?alt=media&token=87f912bd-5124-4924-a4d4-e493e6d0bfd6')"
-    >
-    </div>
+      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fprotesis.jpg?alt=media&token=87f912bd-5124-4924-a4d4-e493e6d0bfd6"
+    />
     <p slot="content" class="text-pretty text-sky-100">
       Proporcionamos soluciones protésicas personalizadas, incluyendo prótesis
       fijas y removibles, para reemplazar dientes perdidos y mejorar tu sonrisa.
     </p>
   </BentoItem>
   <BentoItem class="col-span-12 md:col-span-4" title="Restauraciones">
-    <div
+    <img
       slot="image"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      style="background: url('https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Frestauraciones.jpg?alt=media&token=a37668a3-f237-4239-a8aa-55958a472b51')"
-    >
-    </div>
+      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Frestauraciones.jpg?alt=media&token=a37668a3-f237-4239-a8aa-55958a472b51"
+    />
     <p slot="content" class="text-pretty text-sky-100">
       Realizamos restauraciones dentales utilizando materiales de alta calidad,
       para devolver la forma, el tamaño y la función a los dientes dañados.
     </p>
   </BentoItem>
   <BentoItem class="col-span-12 md:col-span-8" title="Ortodoncia">
-    <div
+    <img
       slot="image"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      style="background: url('https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fortodoncia.jpg?alt=media&token=29eb9acf-4496-4414-be11-c6a88c4e4e88')"
-    >
-    </div>
+      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fortodoncia.jpg?alt=media&token=29eb9acf-4496-4414-be11-c6a88c4e4e88"
+    />
     <p slot="content" class="text-pretty text-sky-100">
       Proporcionamos tratamientos de ortodoncia para corregir maloclusiones y
       alinear tus dientes, mejorando tanto la estética como la funcionalidad de
@@ -56,24 +53,22 @@ import BentoItem from "./bentoItem.astro";
     </p>
   </BentoItem>
   <BentoItem class="col-span-12 md:col-span-4" title="Odontopediatría">
-    <div
+    <img
       slot="image"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      style="background: url('https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fodontropediatria.jpg?alt=media&token=90b10286-d405-4c54-8cbd-5f3ffcbb5b69')"
-    >
-    </div>
+      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fodontropediatria.jpg?alt=media&token=90b10286-d405-4c54-8cbd-5f3ffcbb5b69"
+    />
     <p slot="content" class="text-pretty text-sky-100">
       Nos especializamos en el cuidado dental de los niños, proporcionando un
       ambiente seguro y amigable para sus visitas al dentista.
     </p>
   </BentoItem>
   <BentoItem class="col-span-12 md:col-span-5" title="Rehabilitación">
-    <div
+    <img
       slot="image"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      style="background: url('https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Frehabilitacion.jpg?alt=media&token=eff0a77a-7549-439c-9d52-a03313008a0a')"
-    >
-    </div>
+      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Frehabilitacion.jpg?alt=media&token=eff0a77a-7549-439c-9d52-a03313008a0a"
+    />
     <p slot="content" class="text-pretty text-sky-100">
       Ofrecemos servicios de rehabilitación oral para pacientes que han sufrido
       daños en sus dientes o encías, con el objetivo de mejorar su calidad de
@@ -81,12 +76,11 @@ import BentoItem from "./bentoItem.astro";
     </p>
   </BentoItem>
   <BentoItem class="col-span-12 md:col-span-7" title="Endodoncia">
-    <div
+    <img
       slot="image"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      style="background: url('https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fendodoncia.webp?alt=media&token=f68a42aa-0dda-4f06-b2da-16cbb08b5e04')"
-    >
-    </div>
+      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fendodoncia.webp?alt=media&token=f68a42aa-0dda-4f06-b2da-16cbb08b5e04"
+    />
     <p slot="content" class="text-pretty text-sky-100">
       Realizamos tratamientos de endodoncia para salvar dientes que han sufrido
       daños en su pulpa dental, aliviando el dolor y preservando la salud de tu
