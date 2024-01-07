@@ -1,4 +1,5 @@
 ---
+import logo from "/public/logo-Pomadoc.svg";
 interface Props {
   title: string;
   description: string;
@@ -13,11 +14,7 @@ const { title, description } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Flogo-Pomadoc.svg?alt=media&token=8aedd231-5bcd-4655-8faa-52b51b67a11a"
-    />
+    <link rel="icon" type="image/svg+xml" href={logo.src} />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
