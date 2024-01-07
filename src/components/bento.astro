@@ -1,5 +1,12 @@
 ---
 import BentoItem from "./bentoItem.astro";
+import img_curaciones from "/public/bento/curaciones-min.jpg";
+import img_endodoncia from "/public/bento/endodoncia.webp";
+import img_odontropediatria from "/public/bento/odontropediatria-min.jpg";
+import img_ortodoncia from "/public/bento/ortodoncia-min.jpg";
+import img_protesis from "/public/bento/protesis-min.jpg";
+import img_rehabilitacion from "/public/bento/rehabilitacion-min.jpg";
+import img_restauraciones from "/public/bento/restauraciones-min.jpg";
 ---
 
 <section
@@ -9,7 +16,7 @@ import BentoItem from "./bentoItem.astro";
     <img
       slot="image"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fcuraciones-min.jpg?alt=media&token=9133101e-1f59-47fb-b92f-04111782f27d"
+      src={img_curaciones.src}
       alt="imagen sobre curaciones dentarias"
     />
     <p slot="content" class="text-pretty text-sky-100">
@@ -23,7 +30,7 @@ import BentoItem from "./bentoItem.astro";
       slot="image"
       loading="lazy"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fprotesis-min.jpg?alt=media&token=e717a704-825b-429e-a1d5-d45cbe22e449"
+      src={img_protesis.src}
     />
     <p slot="content" class="text-pretty text-sky-100">
       Proporcionamos soluciones protésicas personalizadas, incluyendo prótesis
@@ -35,7 +42,7 @@ import BentoItem from "./bentoItem.astro";
       slot="image"
       loading="lazy"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Frestauraciones-min.jpg?alt=media&token=93c7f299-3d8c-4643-a1c5-1906fb71bd41"
+      src={img_restauraciones.src}
     />
     <p slot="content" class="text-pretty text-sky-100">
       Realizamos restauraciones dentales utilizando materiales de alta calidad,
@@ -47,7 +54,7 @@ import BentoItem from "./bentoItem.astro";
       slot="image"
       loading="lazy"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fortodoncia-min.jpg?alt=media&token=61b8705b-588f-4c18-8336-c663ad019bd3"
+      src={img_ortodoncia.src}
     />
     <p slot="content" class="text-pretty text-sky-100">
       Proporcionamos tratamientos de ortodoncia para corregir maloclusiones y
@@ -60,7 +67,7 @@ import BentoItem from "./bentoItem.astro";
       slot="image"
       loading="lazy"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fodontropediatria-min.jpg?alt=media&token=3afa6bf7-5fd6-4d48-ad88-47a0edb55580"
+      src={img_odontropediatria.src}
     />
     <p slot="content" class="text-pretty text-sky-100">
       Nos especializamos en el cuidado dental de los niños, proporcionando un
@@ -72,7 +79,7 @@ import BentoItem from "./bentoItem.astro";
       slot="image"
       loading="lazy"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Frehabilitacion-min.jpg?alt=media&token=47b8085b-2cee-4f09-b2c5-63b97e8c2834"
+      src={img_rehabilitacion.src}
     />
     <p slot="content" class="text-pretty text-sky-100">
       Ofrecemos servicios de rehabilitación oral para pacientes que han sufrido
@@ -85,7 +92,7 @@ import BentoItem from "./bentoItem.astro";
       slot="image"
       loading="lazy"
       class="absolute w-full h-full bg-cover bg-center bg-no-repeat -z-10"
-      src="https://firebasestorage.googleapis.com/v0/b/proyectointegrador-storage.appspot.com/o/img%2Fendodoncia.webp?alt=media&token=c587a4ff-d1ba-4b72-be5e-f925b7e6f717"
+      src={img_endodoncia.src}
     />
     <p slot="content" class="text-pretty text-sky-100">
       Realizamos tratamientos de endodoncia para salvar dientes que han sufrido
